@@ -73,10 +73,10 @@ def get_valid_ip():
             print(" Invalid IP address or range. Please try again.")
 # --- Main Execution Block ---
 if __name__ == "__main__":
-    # Change this to match your router's IP (check via 'ipconfig' in terminal)
+    
     target_range = get_valid_ip()
 
-    # Call our function
+
     found_devices = scan_my_network(target_range)
 
 
@@ -89,4 +89,5 @@ if __name__ == "__main__":
         # Saves the result to a csv file in the project folder
         df.to_csv("network_report.csv", index=False)
     else:
+
         print("No devices found. Check your IP range!")
