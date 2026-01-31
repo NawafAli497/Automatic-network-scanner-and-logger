@@ -1,0 +1,6 @@
+00:0c:29,VMware
+00:50:56,VMware
+3c:22:fb,Apple
+b4:fb:e4,Samsung
+00:15:5d,Microsoft
+76:fc:0f,Sagemcom (Router)
